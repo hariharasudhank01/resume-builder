@@ -10,3 +10,6 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# ignored till core is dev
+src/docker-compose.yml
