@@ -1,0 +1,12 @@
+.venv/
+.knowledge-base/
+knowledge_base/
+**/.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS
+.DS_Store

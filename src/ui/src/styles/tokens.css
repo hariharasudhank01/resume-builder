@@ -1,0 +1,66 @@
+/* ResumeBuilder design tokens. Light theme only, per the design brief. */
+:root {
+  /* Neutrals (warm) */
+  --bg: #f8f7f4;
+  --surface: #ffffff;
+  --surface-2: #f3f2ee;
+  --surface-3: #ecebe6;
+  --border: #e6e4de;
+  --border-strong: #d4d1c9;
+  --text: #1d1c1a;
+  --text-2: #57544e;
+  --text-3: #85817a;
+
+  /* Accent (indigo) */
+  --accent: #4f46e5;
+  --accent-hover: #4338ca;
+  --accent-soft: #eef0fe;
+  --accent-softer: #f6f7ff;
+  --accent-border: #c5c9f6;
+  --accent-text: #3f37c9;
+
+  /* Semantic */
+  --success: #1d7a4c;
+  --success-soft: #e7f4ec;
+  --success-border: #bfe1cc;
+  --warning: #93600a;
+  --warning-soft: #fbf2df;
+  --warning-border: #efd9a8;
+  --danger: #b42318;
+  --danger-soft: #fdeceb;
+  --danger-border: #f4c3be;
+
+  /* Type */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-serif: 'Source Serif 4', Charter, Georgia, serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --fs-xs: 11.5px;
+  --fs-sm: 12.5px;
+  --fs-base: 14px;
+  --fs-md: 15px;
+  --fs-lg: 17px;
+  --fs-xl: 20px;
+  --fs-2xl: 26px;
+
+  /* Spacing (4px scale) */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-8: 32px;
+  --s-10: 40px;
+
+  /* Shape and depth */
+  --r-sm: 5px;
+  --r-md: 8px;
+  --r-lg: 12px;
+  --shadow-sm: 0 1px 2px rgba(29, 28, 26, 0.05);
+  --shadow-md: 0 1px 2px rgba(29, 28, 26, 0.04), 0 4px 12px rgba(29, 28, 26, 0.06);
+  --shadow-lg: 0 2px 6px rgba(29, 28, 26, 0.06), 0 12px 32px rgba(29, 28, 26, 0.12);
+  --focus: 0 0 0 2px var(--surface), 0 0 0 4px #8b85f0;
+
+  --sidebar-w: 232px;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+}
